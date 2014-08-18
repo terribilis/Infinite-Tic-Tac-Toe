@@ -2,4 +2,9 @@
   background-color: black;
   text-align: center;
   font-family: verdana;
+};
+/*This next bit will create a border for the game board */
+table, tr, td{
+  border: 1px solid black;
+  margin: 3px;
 }
