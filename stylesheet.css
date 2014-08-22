@@ -1,12 +1,9 @@
-.basicMethod {
-  background-color: black;
-  text-align: center;
-  font-family: verdana;
-};
+
 /*This next bit will create a border for the game board */
-table, tr, td{
+.square{
   border: 1px solid black;
   margin: 1px;
-  width: 400px;
+  width: 100px;
   background-color: red;
+  text-align: center;
 }
