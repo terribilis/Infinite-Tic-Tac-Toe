@@ -3,7 +3,9 @@
 .square{
   border: 1px solid black;
   margin: 1px;
-  width: 100px;
-  background-color: red;
+  width: 55px;
+  height: 55px;
+  background-color: #AEB404;
   text-align: center;
 }
+
