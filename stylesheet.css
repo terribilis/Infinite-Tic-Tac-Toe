@@ -13,3 +13,7 @@ table{
   width:320px;
   position: relative;
 }
+ button{
+   width: 55px;
+   height: 55px;
+ }
