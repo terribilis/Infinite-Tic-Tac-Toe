@@ -9,8 +9,8 @@ function show_image(src, width, height, alt) {
   document.body.appendChild(img); 
 };
 function add_X(){
-  var src = "http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png";
-  show_image("http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png",100px, 100px, "Bleeding Awesome X")
+  var src = "http://google.com/images/logo.gi";
+  show_image("http://google.com/images/logo.gi",100px, 100px, "Bleeding Awesome X")
 };
 function add_O(){
   var src = "http://store.hamiltonmarine.com/prodimg/BER-O.JPG";
