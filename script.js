@@ -6,7 +6,7 @@ function show_image(src, width, height, alt) {
   img.alt = alt;
 
   // This next line will just add it to the <body> tag
-  document.td.appendChild(img); 
+  document.body.appendChild(img); 
 };
 function add_X(){
   var src = "http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png";
