@@ -9,10 +9,9 @@ function show_image(sender, src, width, height, alt) {
   //document.body.appendChild(img); //DO NOT DO THIS.
 
   //REPLACE WITH BELLOW CODE
-  var TD = $("<td></td>");
-  TD.append(img);
+  
 
-  $(sender).parent().append(TD); //ur element will be appended in the same row, but separated <td></td>.
+  $(sender).append(TD); //ur element will be appended in the same row, but separated <td></td>.
 
   //or u use this to append in the same <td></td>
 
