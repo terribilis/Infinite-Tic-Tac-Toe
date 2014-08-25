@@ -12,11 +12,11 @@ function show_image(sender, src, width, height, alt) {
   var TD = $("<td></td>");
   TD.append(img);
 
-  //$(sender).parent().append(TD); //ur element will be appended in the same row, but separated <td></td>.
+  $(sender).parent().append(TD); //ur element will be appended in the same row, but separated <td></td>.
 
   //or u use this to append in the same <td></td>
 
-   $(sender).append(img);
+   //$(sender).append(img);
 
 };
 
