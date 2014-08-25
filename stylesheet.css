@@ -6,6 +6,7 @@
   height: 111px;
   background-color: #AEB404;
   text-align: center;
+  z-index: -1;
 }
 
 table{
