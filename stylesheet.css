@@ -2,9 +2,8 @@
 /*This next bit will create a border for the game board */
 .square{
   border: 1px solid black;
-  margin: 1px;
-  width: 90%;
-  height: 90%;
+  margin:55px;
+  height: 111px;
   background-color: #AEB404;
   text-align: center;
 }
