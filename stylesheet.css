@@ -3,8 +3,8 @@
 .square{
   border: 1px solid black;
   margin: 1px;
-  width: 55px;
-  height: 111px;
+  width: 90%;
+  height: 90%;
   background-color: #AEB404;
   text-align: center;
 }
