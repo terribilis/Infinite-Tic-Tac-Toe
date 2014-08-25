@@ -4,12 +4,12 @@ function show_image(sender, src, width, height, alt) {
   img.width = width;
   img.height = height;
   img.alt = alt;
-
+  document.body.appendChild(img);
   // This next line will just add it to the <body> tag
-  var TD = $("<td></td>");
+  /*var TD = $("<td></td>");
   TD.append(img);
 
-  $(sender).parent().append(TD); 
+  $(sender).parent().append(TD); */
 };
 function add_X(){
   var src = "http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png";
