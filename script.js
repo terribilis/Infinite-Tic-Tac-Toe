@@ -6,7 +6,7 @@ function show_image(/*sender,*/ src, width, height, alt) {
   img.alt = alt;
 
 
-  document.body.appendChild(img); //DO NOT DO THIS.
+  document.table.appendChild(img); //DO NOT DO THIS.
 
   //REPLACE WITH BELLOW CODE
   
