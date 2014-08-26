@@ -5,7 +5,7 @@ function show_image(/*sender,*/ src, width, height, alt) {
   img.height = height;
   img.alt = alt;
   
-var table= document.getElementsByTagName("table");
+table= document.getElementsByTagName("table");
 
   document.table.appendChild(img); //DO NOT DO THIS.
 
