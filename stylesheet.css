@@ -20,3 +20,7 @@ table{
    min-height: 1px;
    background-color:#AEB404;
  }
+ img{
+   height:125px;
+   width: 125px;
+ }
